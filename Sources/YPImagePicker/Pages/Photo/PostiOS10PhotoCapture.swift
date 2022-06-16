@@ -9,7 +9,6 @@
 import UIKit
 import AVFoundation
 
-@available(iOS 10.0, *)
 class PostiOS10PhotoCapture: NSObject, YPPhotoCapture, AVCapturePhotoCaptureDelegate {
 
     let sessionQueue = DispatchQueue(label: "YPCameraVCSerialQueue", qos: .background)
